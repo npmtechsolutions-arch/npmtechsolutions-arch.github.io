@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-label="SpeakEasy app icon on an orange background: a white voice bubble with an orange sound wave over an indigo text bubble">
+<defs>
+<linearGradient id="o-bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#FFE2C4"></stop>
+<stop offset="0.55" stop-color="#FDBA74"></stop>
+<stop offset="1" stop-color="#FB923C"></stop>
+</linearGradient>
+<linearGradient id="o-indigo" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#4F46E5"></stop>
+<stop offset="1" stop-color="#6D28D9"></stop>
+</linearGradient>
+<linearGradient id="o-bars" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#F97316"></stop>
+<stop offset="1" stop-color="#DC2626"></stop>
+</linearGradient>
+</defs>
+<rect width="1024" height="1024" fill="url(#o-bg)"></rect>
+<rect x="388" y="436" width="468" height="356" rx="120" fill="url(#o-indigo)"></rect>
+<path d="M 700 770 C 740 830 790 868 838 884 C 812 846 800 806 800 760 Z" fill="#6D28D9"></path>
+<line x1="476" y1="640" x2="780" y2="640" stroke="#FFFFFF" stroke-width="32" stroke-linecap="round"></line>
+<line x1="476" y1="696" x2="716" y2="696" stroke="#FFFFFF" stroke-width="32" stroke-linecap="round"></line>
+<line x1="476" y1="752" x2="620" y2="752" stroke="#FFFFFF" stroke-width="32" stroke-linecap="round"></line>
+<g transform="translate(0 18)" fill="#9A3412" opacity="0.18">
+<rect x="168" y="232" width="468" height="356" rx="120"></rect>
+<path d="M 236 556 C 226 616 200 664 168 690 C 236 690 300 660 336 600 Z"></path>
+</g>
+<rect x="168" y="232" width="468" height="356" rx="120" fill="#FFFFFF"></rect>
+<path d="M 236 556 C 226 616 200 664 168 690 C 236 690 300 660 336 600 Z" fill="#FFFFFF"></path>
+<rect x="231" y="380" width="30" height="60" rx="15" fill="url(#o-bars)"></rect>
+<rect x="283" y="350" width="30" height="120" rx="15" fill="url(#o-bars)"></rect>
+<rect x="335" y="315" width="30" height="190" rx="15" fill="url(#o-bars)"></rect>
+<rect x="387" y="285" width="30" height="250" rx="15" fill="url(#o-bars)"></rect>
+<rect x="439" y="315" width="30" height="190" rx="15" fill="url(#o-bars)"></rect>
+<rect x="491" y="350" width="30" height="120" rx="15" fill="url(#o-bars)"></rect>
+<rect x="543" y="380" width="30" height="60" rx="15" fill="url(#o-bars)"></rect>
+</svg>
