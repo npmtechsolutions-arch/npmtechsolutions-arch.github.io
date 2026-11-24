@@ -7,6 +7,7 @@ Website for NPM Tech Solutions: our apps, games and their privacy policies. Plai
 - SpeakEasy home and support: https://npmtechsolutions-arch.github.io/speakeasy/
 - SpeakEasy privacy policy: https://npmtechsolutions-arch.github.io/speakeasy/privacy.html
 - Mammoth Hunt privacy policy: https://npmtechsolutions-arch.github.io/mammoth-hunt/privacy.html
+- Mammoth Hunt support: https://npmtechsolutions-arch.github.io/mammoth-hunt/support.html
 - Dragon Hunt privacy policy: https://npmtechsolutions-arch.github.io/dragon-hunt/privacy.html
 - app-ads.txt (AdMob, shared by all apps of publisher pub-6254026885647002): https://npmtechsolutions-arch.github.io/app-ads.txt
 
@@ -23,6 +24,11 @@ Commit and push to `main`; GitHub Pages publishes within a minute or two (Settin
 - `assets/fonts/`: Plus Jakarta Sans and Inter (Latin subset), self-hosted so the site sends nothing to Google Fonts. SIL Open Font License, see the `OFL-*.txt` files.
 - `assets/img/`: logo, favicon, Apple touch icon and Open Graph image, copied from the SpeakEasy brand folder.
 - The privacy policy describes what the app build actually does. Update it before switching on a feature that sends data off the phone (place lookup, crash reports, a downloadable AI model, the remote settings file).
+
+## Home and Mammoth Hunt pages (`index.html`, `mammoth-hunt/`, root `style.css`)
+- In Mammoth Hunt's look: Lilita One headings and Nunito text (from Google Fonts), sky blue, gold and green accents, rounded cards, light and dark mode. Menu (Home, Privacy, Support) and footer on every page.
+- `mammoth-hunt/icon-192.png` and `icon-64.png` come from the game's 512x512 Play Store icon.
+- The Dragon Hunt privacy page and `404.html` also use the root `style.css`.
 
 ## Other files
 - `app-ads.txt`: one line for Google AdMob.

@@ -4,40 +4,72 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>NPM Tech Solutions</title>
-  <meta name="description" content="NPM Tech Solutions makes mobile apps and games. Support pages and privacy policies.">
+  <meta name="description" content="NPM Tech Solutions is an independent mobile game studio making fun, easy-to-play games for Android and iOS.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nunito:wght@400;700;800&display=swap">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="mammoth-hunt/icon-64.png">
 </head>
 <body>
+  <div class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="index.html"><span class="brand-dot" aria-hidden="true"></span>NPM Tech Solutions</a>
+      <nav aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="mammoth-hunt/privacy.html">Privacy</a>
+        <a href="mammoth-hunt/support.html">Support</a>
+      </nav>
+    </div>
+  </div>
+
   <main>
     <header>
       <h1>NPM Tech Solutions</h1>
-      <p class="muted">We make mobile apps and games.</p>
+      <p class="tagline">Small games. Big adventures.</p>
     </header>
+
+    <p>NPM Tech Solutions is an independent mobile game studio making fun, easy-to-play games for Android and iOS. Quick to learn, hard to put down.</p>
 
     <h2>Our apps</h2>
 
-    <div class="card">
+    <section class="card">
       <h2>SpeakEasy</h2>
       <p>An offline voice, camera and document translator: talk to anyone and hear it in their language.</p>
-      <p><a href="speakeasy/">SpeakEasy home and support</a> · <a href="speakeasy/privacy.html">Privacy policy</a></p>
-    </div>
+      <div class="links">
+        <a class="button" href="speakeasy/">Home and support</a>
+        <a class="button alt" href="speakeasy/privacy.html">Privacy Policy</a>
+      </div>
+    </section>
 
     <h2>Our games</h2>
 
-    <div class="card">
-      <h2>Mammoth Hunt</h2>
-      <p>A runner game: lead your tribe of cavemen, grow it through gates, and bring down giant mammoths.</p>
-      <p><a href="mammoth-hunt/privacy.html">Privacy policy</a></p>
-    </div>
+    <section class="card game">
+      <img src="mammoth-hunt/icon-192.png" alt="Mammoth Hunt icon" width="96" height="96">
+      <div>
+        <h2>Mammoth Hunt</h2>
+        <p class="tagline">Grow your tribe. Take down the giants.</p>
+        <span class="badge">Coming soon on Google Play</span>
+        <p>Steer your tribe through multiplying gates, dodge giant attacks and take down 60 mighty mammoths across 10 wild worlds.</p>
+        <div class="links">
+          <a class="button" href="mammoth-hunt/privacy.html">Privacy Policy</a>
+          <a class="button alt" href="mammoth-hunt/support.html">Support</a>
+        </div>
+      </div>
+    </section>
 
-    <div class="card">
+    <section class="card">
       <h2>Dragon Hunt</h2>
       <p>A runner game for the whole family: lead your band of young knights, grow it through gates, and send the dragons flying home.</p>
-      <p><a href="dragon-hunt/privacy.html">Privacy policy</a></p>
-    </div>
+      <div class="links">
+        <a class="button" href="dragon-hunt/privacy.html">Privacy Policy</a>
+      </div>
+    </section>
 
     <footer>
-      Contact: <a href="mailto:npmtechsolutions@gmail.com">npmtechsolutions@gmail.com</a>
+      <p>Contact: <a href="mailto:npmtechsolutions@gmail.com">npmtechsolutions@gmail.com</a></p>
+      <p>© 2026 NPM Tech Solutions</p>
     </footer>
   </main>
 </body>
